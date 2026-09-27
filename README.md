@@ -24,7 +24,7 @@ This notebook tests moving-average, RSI, and my own "Confluence" strategy on 5 i
 
 ## What I found
 
-- **Nothing beats buy & hold on return.** That's true on every ETF. QQQ had the biggest returns for every strategy and pulls the 5-ETF averages up; IWM (small caps) had the smallest.
+- **Nothing beats buy & hold on return.** That's true on every ETF. QQQ had the biggest returns for every strategy except RSI (which did best on IWM) and pulls the 5-ETF averages up. IWM (small caps) was usually the smallest.
 - **The strategies do cut the crashes.** The 200-day MA's worst drop was about -24%, vs. -55% for buy & hold. But it ended with less than half the money.
 - **Risk-adjusted, it's close to a tie.** Confluence and the 200-day MA have slightly higher Sharpe ratios than buy & hold (0.66 and 0.64 vs. 0.62), but not by much.
 - **More trading = worse.** The 20-day MA trades the most and does the worst. A tight ATR stop (2x ATR, only ~2.7% below the price) made 4x as many trades as the fixed 5% stop and lost to it.
@@ -109,14 +109,12 @@ jupyter notebook momentum_trading.ipynb
 ## Versions
 
 - **v1 (spring 2026):** original analysis. See the `v1-original-report` tag.
-- **v2 (Sept 2026):** cleanup and bug fixes, so the numbers changed:
+- **v2 (Sept 2026):** I used an AI assistant (Gemini) to help with debugging and editing. Small fixes; some numbers moved, but the main conclusion didn't change (buy & hold still came out ahead):
   - trades now happen at the next day's close (not the signal day's close)
   - trades still open at the end of the data are now counted
   - Confluence can only sell after it has bought
   - returns are compounded everywhere
-  - added the luck check (Section 5), settings sweeps (Appendix A), and sanity checks (Appendix B)
-
-*I used an AI assistant (Gemini) as a code reviewer and editor. Strategy ideas, experiments, and conclusions are my own.*
+  - clearer sections for the luck check (Section 5), settings tests (Appendix A), and sanity checks (Appendix B)
 
 ## Author
 
