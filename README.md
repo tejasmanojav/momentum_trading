@@ -108,13 +108,8 @@ jupyter notebook momentum_trading.ipynb
 
 ## Versions
 
-- **v1 (spring 2026):** original analysis. See the `v1-original-report` tag.
-- **v2 (Sept 2026):** I used an AI assistant (Gemini) to help with debugging and editing. Small fixes; some numbers moved, but the main conclusion didn't change (buy & hold still came out ahead):
-  - trades now happen at the next day's close (not the signal day's close)
-  - trades still open at the end of the data are now counted
-  - Confluence can only sell after it has bought
-  - returns are compounded everywhere
-  - clearer sections for the luck check (Section 5), settings tests (Appendix A), and sanity checks (Appendix B)
+- **v1 (spring 2026):** original analysis.
+- **v2 (Sept 2026):** AI-assisted debugging and editing. Fixes changed some numbers, not the conclusion. See the report for details.
 
 ## Author
 
