@@ -109,7 +109,7 @@ jupyter notebook momentum_trading.ipynb
 ## Versions
 
 - **v1 (spring 2026):** original analysis.
-- **v2 (Sept 2026):** AI-assisted debugging and editing. Fixes changed some numbers, not the conclusion. See the report for details.
+- **v2 (Sept 2026):** AI-assisted debugging and editing. Fixes changed some numbers, not the conclusion. See the [report](Momentum%20Trading%20Report.pdf) for details.
 
 ## Author
 
