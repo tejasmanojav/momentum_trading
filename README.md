@@ -4,7 +4,7 @@ John Bogle's buy-and-hold idea (own the whole market and don't touch it) makes i
 
 This notebook tests moving-average, RSI, and my own "Confluence" strategy on 5 index ETFs (**SPY, QQQ, DIA, IWM, VTI**) from 2004 to 2024, and compares everything to just buying and holding.
 
-**Short answer:** No strategy beat buy & hold on total return, on any of the 5 ETFs. What the strategies do give you is smaller crashes, and you pay for that with a lot less money at the end.
+**Short answer:** No strategy beat buy & hold on total return, on any of the 5 ETFs. What the strategies do give you is smaller crashes, and you pay for that with a lot less money at the end. Full write-up: [report](Momentum%20Trading%20Report.pdf)
 
 ---
 
